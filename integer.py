@@ -6,10 +6,10 @@
 # Ask for thhe number
 user_num = int(input("Enter a number: "))
 
-# Check if it's positive, negative, or zero
+# Check if it's positive
 if user_num > 0:
     print(user_num, "is a positive number")
 elif user_num < 0:
-    print(user_num, "is a negative number")
+    print(user_num, "is a negative number") # Check if it's negative
 else:
-    print(user_num, "is just zero!")
+    print(user_num, "is just zero!") # Check if it's zero
